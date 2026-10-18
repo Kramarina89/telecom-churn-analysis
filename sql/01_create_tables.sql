@@ -1,0 +1,22 @@
+CREATE TABLE telecom_churn_raw (
+    state TEXT,
+    account_length TEXT,
+    area_code TEXT,
+    international_plan TEXT,
+    voice_mail_plan TEXT,
+    number_vmail_messages TEXT,
+    total_day_minutes TEXT,
+    total_day_calls TEXT,
+    total_day_charge TEXT,
+    total_eve_minutes TEXT,
+    total_eve_calls TEXT,
+    total_eve_charge TEXT,
+    total_night_minutes TEXT,
+    total_night_calls TEXT,
+    total_night_charge TEXT,
+    total_intl_minutes TEXT,
+    total_intl_calls TEXT,
+    total_intl_charge TEXT,
+    customer_service_calls TEXT,
+    churn TEXT
+);
